@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Classroster cr = new Classroster ();
+           foreach (string arg in cr)
+            {
+                Console.WriteLine (arg);
+            }
         }
     }
 }
